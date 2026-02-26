@@ -1,3 +1,3 @@
 python-telegram-bot==20.7
-python-picnic-api2==1.3.2
+python-picnic-api2
 requests>=2.24.0
