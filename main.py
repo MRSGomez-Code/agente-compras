@@ -14,7 +14,7 @@ picnic = PicnicAPI(username=PICNIC_EMAIL, password=PICNIC_PASSWORD, country_code
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
-        "Hola! Soy tu agente de compra de Picnic.\n\n"
+        "Hola! Soy EL agente de compra de Picnic.\n\n"
         "Comandos disponibles:\n"
         "/buscar [producto] - Busca un producto\n"
         "/comprar [producto] - Añade al carrito\n"
