@@ -2,7 +2,7 @@ import os
 import logging
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
-from picnic_api2 import PicnicAPI
+from picnic_api import PicnicAPI
 
 logging.basicConfig(level=logging.INFO)
 
